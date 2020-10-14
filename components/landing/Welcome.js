@@ -1,5 +1,5 @@
 import { Box, PseudoBox } from "@chakra-ui/core";
-import Layout from "../layout/layout";
+import Layout from "../layout/Layout";
 import Hero from "../hero";
 import Title from "../title";
 
@@ -18,7 +18,7 @@ const Welcome = () => {
         p="0 2rem 0 2rem"
         backgroundImage={{
           sm: "unset",
-          md: "url('img/bg_header.png')"
+          md: "url('img/bg_header.png')",
         }}
         backgroundRepeat="no-repeat"
         backgroundSize="cover"

@@ -1,5 +1,5 @@
 import { useProductsContext } from "../context/ProductsContext/ProductsContext";
-import Layout from "../components/layout/layout";
+import Layout from "../components/layout/Layout";
 import SkeletonItem from "../components/skeleton";
 import ProductTitle from "../components/products/ProductTitle";
 import SearchBar from "../components/products/SearchBar";
@@ -12,7 +12,7 @@ const Products = () => {
     products,
     loading,
     setSearchProducts,
-    setSortProducts
+    setSortProducts,
   } = useProductsContext();
 
   return (

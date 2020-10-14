@@ -1,9 +1,9 @@
-import Layout from "../layout";
+import Layout from "../Layout";
 import Title from "../../title";
 import { Heading } from "@chakra-ui/core";
-import FooterButton from "./footerButton";
+import FooterButton from "./FooterButton";
 
-const Header = () => {
+const Footer = () => {
   return (
     <Layout
       as="footer"
@@ -54,4 +54,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Footer;
