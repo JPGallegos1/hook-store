@@ -7,25 +7,25 @@ const benefits = [
   {
     label: "Easy to use",
     src: "img/mobile.svg",
-    alt: "Easy to use",
+    alt: "Easy to use"
   },
   { label: "Free to use", src: "img/account.svg", alt: "Free to use" },
   {
     label: "A lot of products",
     src: "img/products.svg",
-    alt: "search bar",
+    alt: "search bar"
   },
   {
     label: "A lot to search",
     src: "img/searchbar.svg",
-    alt: "snacks y frutas",
+    alt: "snacks y frutas"
   },
   { label: "Use your wishlist", src: "img/wishlist.svg", alt: "semana remota" },
   {
     label: "Or just pay for it",
     src: "img/payment.svg",
-    alt: "últimas tecnologías",
-  },
+    alt: "últimas tecnologías"
+  }
 ];
 
 benefits.map((benefit) => {
