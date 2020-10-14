@@ -1,6 +1,6 @@
 import { ProductsProvider } from "../context/ProductsContext/ProductsContext";
 import Header from "../components/layout/Header";
-import Footer from "../components/layout/footer/Footer";
+import Footer from "../components/layout/footer/footer";
 import Main from "../components/layout/Main";
 import { ThemeProvider, CSSReset } from "@chakra-ui/core";
 import { CustomTheme } from "../styles/theme";
