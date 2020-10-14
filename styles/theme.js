@@ -10,8 +10,8 @@ export const CustomTheme = {
   colors: {
     ...theme.colors,
     ecommerce: {
-      100: "#318fb5",
-    },
+      100: "#318fb5"
+    }
   },
-  breakpoints,
+  breakpoints
 };
