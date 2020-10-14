@@ -1,7 +1,7 @@
 import Layout from "../Layout";
 import Title from "../../title";
 import { Heading } from "@chakra-ui/core";
-import FooterButton from "./FooterButton";
+import FooterButton from "./footerButton";
 
 const Footer = () => {
   return (
